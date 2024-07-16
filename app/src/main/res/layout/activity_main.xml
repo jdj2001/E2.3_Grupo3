@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="324dp"
         android:layout_marginTop="55dp"
-        app:srcCompat="@drawable/hola" />
+        app:srcCompat="@drawable/img" />
 
     <EditText
         android:id="@+id/txtDescripcion"

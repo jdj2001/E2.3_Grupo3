@@ -17,8 +17,6 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import com.example.e23_grupo3.Transacciones;
-
 import java.io.ByteArrayOutputStream;
 
 public class MainActivity extends AppCompatActivity {
@@ -58,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
                         db.insert(byteArray, descripcionText);
                         Toast.makeText(getApplicationContext(), "Guardado en la Base de Datos", Toast.LENGTH_LONG).show();
                         byteArray = new byte[0];
-                        objImagen.setImageResource(R.drawable.hola);
+                        objImagen.setImageResource(R.drawable.img);
                         descripcion.setText("");
                     } else {
                         Toast.makeText(getApplicationContext(), "Ingrese una descripción", Toast.LENGTH_LONG).show();
